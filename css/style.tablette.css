@@ -1,0 +1,139 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* header */
+    .header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        box-sizing: content-box;
+        width: 100%;
+        margin-top: -15px;
+    }
+
+    .container-header {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -20px;
+    }
+
+    .header nav ul {
+        display: flex;
+        list-style-type: none;
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .header-navbar-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 3px solid rgb(187, 185, 185);
+        height: 47px;
+    }
+
+    .header-navbar-link.active {
+        display: flex;
+        align-items: center;
+        border-bottom: 3px solid hsl(223deg 97% 53%);
+        border-top: none;
+        height: 50px
+    }
+
+    .header nav li {
+        font-size: 15px;
+        padding-top: 0px;
+    }
+
+    .header img {
+        margin: auto;
+        margin-top: 30px;
+        height: 50px;
+        margin-left: 50px;
+    }
+
+    /* searchbar */
+
+    .searchbar {
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+
+    #magnifying-glass {
+        display: none;
+    }
+
+    /* filter */
+
+    .filter-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .filter-text-icon {
+        margin-top: 10px;
+    }
+
+    /* info */
+
+    .info {
+        margin-top: 40px;
+    }
+
+    /* box-right */
+    .lodging {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 92%;
+        margin: auto;
+    }
+
+    .box-right {
+        background-color: white;
+        margin-bottom: 20px;
+    }
+
+    .box-right-litle-boxes {
+        margin-top: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        border: solid #102ed9 40px;
+        padding: 5px;
+        height: 150px;
+
+    }
+
+    .box-right-little-boxes-price {
+        margin-left: 4px;
+        margin-top: 4px;
+        margin-bottom: 30px;
+    }
+
+    .box-right-litle-boxes-subtitle {
+        font-size: var(--font-size-medium);
+    }
+
+    /* box-left */
+
+    .box-left-little-boxes-img {
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    /* footer */
+    .footer {
+        margin-top: 20px;
+    }
+}
